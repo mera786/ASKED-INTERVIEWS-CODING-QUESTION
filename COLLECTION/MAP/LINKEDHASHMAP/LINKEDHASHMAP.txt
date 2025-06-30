@@ -1,0 +1,10 @@
+                                LINKEDHASHMAP
+
+(1) find first non-repeating character from string ?
+  Input: “aaccbde”
+  Output: b
+ (2) find longest sub string without repeating character?
+  Input: “java”
+  Output: 
+ longest substring: [j, a, v]
+ longest substring length: 3

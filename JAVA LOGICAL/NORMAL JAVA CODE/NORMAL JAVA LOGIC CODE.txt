@@ -1,0 +1,41 @@
+(1)	Write code for Fibonacci series ?
+Input: 15  
+output: 0 1 1 2 3 5 8 13.
+(2)	Write code for factorial Num ?
+Input : 5  
+output: 120.
+(3)	Find missing num ?
+Input: arr = {0, 1, 2, 3, 4, 5, 6, 8, 9, 10};
+Output: 7
+(4)	Check number is prime or not if prime then print all num?
+Input: 17 
+output: 2,3,5,7,11,13,17.
+(5)	Write code to check is Armstrong or not ?
+Input: 153 
+output = true.
+(6)	Check is number palindrome or not ?
+Input: 32123  
+output: true.
+(7)	Count give digits ?
+Input: 12345675
+Output: 8
+         (8) Reverse digit of numbers ?
+            Input: 1234
+            Output: 4321
+         (9) sum of digits for given number?
+             Input: 1234
+             Output: 10
+         (10) write code for first multiple of 5 and 7 ?
+           Output: 35
+         (11) find sum of first n natural number ?
+              Input: 3 
+              Output: 6
+        (12) calculate sum of integers until invalid input given invalid input: -1?
+        (13) calculate ‘a’ raise to the power ‘b’ ?
+            Input:  a = 4,   b= 2
+            Output: 16
+
+( ) using recursion find nth Fibonacci series?
+   Input: 10 
+   Output: 55.
+

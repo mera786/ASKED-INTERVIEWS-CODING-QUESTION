@@ -1,0 +1,28 @@
+                                    ARRAYLIST
+
+(1) WRT for duplicateCounter means whatever string occurs more than one print their count ?
+ Input: ("a", "b", "a", "c", "a","c")
+ Output: a3, c2
+(2) from two list find common elements using stream ?
+  Input: list1= {1,2,3,4}   and  list2={3,4,5,6}
+  Output: {3,4}
+(3) while iterating over list identify the object type at index ?
+  Input:  ArrayList list = new ArrayList();
+        list.add("sahil");
+        list.add('c');
+        list.add(10);
+        list.add(null);
+ output: 
+ String at index 0: sahil
+ Unknown type at index 1: c
+ Integer at index 2: 10
+ Unknown type at index 3: null
+
+(4) find duplicate elements in a given integers list using stream functions ?
+ Input : (10,28,87, 10,20,76, 28,80 );
+ Output: 10,28
+(5) from list of ages print second and third ages using stream ?
+(6) from list of names I want names in upper case with comma (, ) separated ?
+(7) 
+
+

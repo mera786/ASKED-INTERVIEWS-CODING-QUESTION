@@ -1,0 +1,89 @@
+                                  STRING
+(1) print sub string of a string ?
+ Input: “abc”
+ Output: a ab abc b bc c.
+(2) toggle/ caseSwapper the string ?
+ Input: “sAHil”
+ Output: SahIL
+    OR
+ Input: “Hello,World”
+ Output: hELLO wORLD
+(3) find vowels and convert into upper case then return string ?
+  Input: “hello”
+  Output: hEllO
+(4) reverse the string ?
+  Input: “hello”
+  Output: olleh
+(5) reverse each word string ?
+  Input: “java code”
+  Output: avaj edoc
+(6) print count of characters of string and total length of string?
+  Input: “sahil satish new delhi”
+  Output: count = 19 , length = 22
+(7) replace character with it’s occurrence ?
+  Input:”opentext”
+  Output: open1ex2
+(9) show index against of the characters ?
+  Input:”infotech”
+  Output:   i=0
+           n=1
+          f=2
+          o=3
+          t=4
+          e=5
+          c=6
+          h=7
+(10) print ‘a’ instead of ‘ab’ in the string ?
+     Input: ”aaabbabbab”
+     Output: aaaaa
+(11) find ram occurrences in the string ?
+   Input: “Ram went to Rampur with balram and also sitaram”
+   Output: 4
+(12) find largest string from array?
+  Input: {"apple", "banana", "grape", "watermelon", "orange"}
+  Output: watermelon (10)
+(13) sort string alphabetically ?
+  Input: “java”
+  Output: aajv
+(14)  check is string palindrome or not ?
+ Input: “racecar”
+ Output: true
+(15) count number of palindrome string ?
+  Input: “abc” 
+  Output: 3
+(16) remove duplicate character from string ?
+  Input: “programing”
+  Output: p a r g i m n o
+
+(17) from given string find longest vowel sub string?
+Input: “helloooaeiooouworld”
+Output: oooaeiooou
+(18) for given string check it is isogram or not?
+   (a) input : “codedecode”;
+     Output: false
+   (b) input : “pen”
+     Output: true.
+(19) CHECK FOR STRING ROTATION EITHER FROM RIGHT OR LEFT IF YES THEN RETURN TRUE OTHERWISE FALSE ?
+left rotated case, 
+ Input: originalString = "decode"; , toBeChecked = "codede";
+ Output: true.
+Right rotated case, 
+ Input: originalString = "decode"; , toBeChecked = "dedeco";
+ Output: true.
+no rotated but swap, 
+ Input: originalString = "decode"; , toBeChecked = "deocde";
+ Output: false.
+
+(20) LEFT STRING ROTATION FOR K TIMES ?
+ Input: “decode”;
+ Output: codede.
+
+(21) RIGHT STRING ROTATION FOR K TIMES?
+ Input: “decode”
+ Output: dedeco.
+
+
+
+
+
+

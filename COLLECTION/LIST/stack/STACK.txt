@@ -1,0 +1,6 @@
+                                  STACK
+
+(1) write program for bracket matching ?
+  Input: {[()]}
+  Output: true. 
+

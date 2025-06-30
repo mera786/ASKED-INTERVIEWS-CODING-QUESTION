@@ -1,0 +1,12 @@
+                                  REGULAR EXPRESSION
+
+(1) remove all white spaces from string ?
+  Input 1: "    j   a  va   s   ta   r    ";
+  Output: javastar
+  Input 2: "   Hello  World   ";
+  Output: HelloWorld
+(2) remove special character from string ?
+  Input 1 : "$ja!6va$&st%ar1";
+  Output: javastar
+  Input: "#ja!6va$&st%ar1";
+  Output: #!$&%
