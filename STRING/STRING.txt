@@ -83,6 +83,111 @@ no rotated but swap,
  Output: dedeco.
 
 
+---------------------------------------- EXTRA CHATGPT ASKED ----------------------------------------------------------------------------
+
+
+
+🔹 Easy String Questions
+
+Reverse a String
+Input: "hello" → Output: "olleh"
+
+Check for Palindrome
+Input: "racecar" → Output: true
+
+Count Vowels and Consonants
+Input: "hello" → Output: Vowels = 2, Consonants = 3
+
+Check Anagram
+Input: "listen", "silent" → Output: true
+
+Remove Duplicates from a String
+Input: "banana" → Output: "ban"
+
+Check if Two Strings are Rotations
+Input: "ABCD", "CDAB" → Output: true
+
+Convert String to Integer (without parseInt)
+Input: "123" → Output: 123
+
+Find Duplicate Characters in String
+Input: "programming" → Output: g, r, m
+
+Toggle Case of Characters
+Input: "HeLLo" → Output: "hEllO"
+
+Replace spaces with %20 (URLify)
+Input: "Mr John Smith" → Output: "Mr%20John%20Smith"
+
+
+
+🔸 Medium String Questions
+
+Longest Substring Without Repeating Characters
+Input: "abcabcbb" → Output: "abc"
+
+Check if a String is a Rotation of Another Using Only One Call to in
+Input: "waterbottle", "erbottlewat" → Output: true
+
+String Compression
+Input: "aabcccccaaa" → Output: "a2b1c5a3"
+
+Valid Palindrome after Removing At Most One Character
+Input: "abca" → Output: true
+
+First Non-Repeating Character
+Input: "loveleetcode" → Output: v
+
+Group Anagrams
+Input: ["eat","tea","tan","ate","nat","bat"] → Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
+
+Roman to Integer
+Input: "MCMXCIV" → Output: 1994
+
+Isomorphic Strings
+Input: "egg", "add" → Output: true
+
+Check if One String is a Subsequence of Another
+Input: "abc", "ahbgdc" → Output: true
+
+Check Balanced Parentheses
+Input: "({[]})" → Output: true
+
+
+
+🔺 Hard String Questions
+
+Zigzag Conversion
+Input: "PAYPALISHIRING", 3 → Output: "PAHNAPLSIIGYIR"
+
+Longest Palindromic Substring
+Input: "babad" → Output: "bab" or "aba"
+
+Regular Expression Matching (with . and *)
+Input: "aab", "c*a*b" → Output: true
+
+Minimum Window Substring
+Input: s = "ADOBECODEBANC", t = "ABC" → Output: "BANC"
+
+Wildcard Matching (? and *)
+Input: "adceb", "*a*b" → Output: true
+
+Count and Say
+Input: 5 → Output: "111221"
+
+Multiply Two Large Numbers Represented as Strings
+Input: "123", "456" → Output: "56088"
+
+Decode Ways (A=1 to Z=26)
+Input: "226" → Output: 3 (BZ, VF, BBF)
+
+Basic Calculator (with parentheses)
+Input: "(1+(4+5+2)-3)+(6+8)" → Output: 23
+
+Longest Duplicate Substring
+Input: "banana" → Output: "ana"
+
+
 
 
 
