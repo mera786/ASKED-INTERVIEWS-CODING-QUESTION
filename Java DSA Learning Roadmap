@@ -1,0 +1,102 @@
+Linear & Binary Search → Sorting → Arrays → Strings → ArrayList → LinkedList → Stack → Queue → HashMap/HashSet → Recursion →Tree → BST → Heap → Graph
+
+✅ 1. Arrays
+Accessing, inserting, deleting
+
+Fixed size, index-based
+
+Learn 1D & 2D arrays
+
+🔸 Practice: Rotate, reverse, max/min, frequency, prefix sum
+
+✅ 2. Strings
+Character arrays in disguise
+
+Immutable in Java
+
+StringBuilder (mutable)
+
+🔸 Practice: Palindrome, anagram, reverse, character count, substring
+
+
+✅ 3. ArrayList
+Dynamic array (no fixed size)
+
+Resizable, allows duplicates
+
+🔸 Practice: Add/remove elements, sorting, searching
+
+
+✅ 4. Linked List
+Nodes with data and pointer
+
+Types: Singly, Doubly, Circular
+
+🔸 Practice: Insert, delete, reverse, middle, detect loop
+
+
+
+✅ 5. Stack
+LIFO (Last-In-First-Out)
+
+Use: Stack<Integer> in Java
+
+🔸 Practice: Balanced parentheses, reverse string, undo
+
+
+
+✅ 6. Queue
+FIFO (First-In-First-Out)
+
+Use: Queue, LinkedList, or ArrayDeque
+
+🔸 Practice: Circular queue, sliding window max
+
+
+
+✅ 7. Hashing (HashMap / HashSet)
+Fast lookup in O(1)
+
+HashMap<K, V> / HashSet<E>
+
+🔸 Practice: Frequency count, two-sum, duplicate check
+
+
+✅ 8. Recursion
+Function calling itself
+
+Used in: backtracking, divide & conquer
+
+🔸 Practice: Factorial, Fibonacci, tower of Hanoi, string subsets
+
+
+
+✅ 9. Binary Search Tree (BST)
+Tree with left < root < right
+
+🔸 Practice: Insert, search, delete, in-order traversal
+
+
+✅ 10. Tree & Binary Tree
+Hierarchical data
+
+🔸 Practice: BFS, DFS, height, diameter, mirror, level order
+
+
+✅ 11. Heap (PriorityQueue in Java)
+Min-heap, Max-heap
+
+Used in: Top-K problems, sorting
+
+🔸 Practice: K largest/smallest, heap sort
+
+
+✅ 12. Graphs (Basic)
+Nodes and edges
+
+Use: BFS, DFS
+
+🔸 Practice: Cycle detection, shortest path, island problems
+
+
+
