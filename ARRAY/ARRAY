@@ -116,7 +116,7 @@ What to say : Outer Loop : for (int i=0; i<arr.length-1; i++);
                int smallestIndx = i;
                Inner Loop : for (int j=i+1; j<arr.length; j++)
                comprasion : if(arr[j] <arr[smallestIndex]){
-                              smallestIndex=j; } -> then swap (arr, i, smallestIndx);
+                              smallestIndex=j; } } -> then swap (arr, i, smallestIndx);
 ---------------------------------------
 
 (1) Sort an array using selection sort?
