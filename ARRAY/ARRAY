@@ -249,12 +249,14 @@ intput :
 int [] arr = {1,2,3,4,5};
 int k = 2 ;
 output : 3,4,5,1,2
+Note: left rotate = aage wala element piche jayega as per k steps.
 
 (13) Right rotate an array by one position ?
 intput :
 int [] arr = {1,2,3,4,5};
 int k = 2 ;
 output : 4, 5, 1, 2, 3
+Note: left rotate = piche wala element aage aayega as per k steps.
 
 (14) Find the frequency of each element in an array?
 intput :
