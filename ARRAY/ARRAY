@@ -7,7 +7,7 @@ ________________________________________________________________________________
              A search algorithm that checks each element in the list one by one until the target is found or the list ends.
 
 
-(1) Find Element in Array?
+(1) Find Element in Array at what index present?
 input :
 int [] arr = {4, 2, 7, 9, 1};
 int tar = 7;
