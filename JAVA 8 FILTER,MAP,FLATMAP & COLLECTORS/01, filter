@@ -127,44 +127,52 @@ Output: 868
                                                         -------------------------
 
 (1) Print the multiplication of alternate number in an array ?
-Input: int arr []= {1,43,2,25,1,53,6};
+Input: 
+int arr []= {1,43,2,25,1,53,6};
 Output: 12
 
 (2) WAF to multiply 1st and last element and 2nd element to 2nd last element in a given array
-Input: int arr[]={4,5,7,2,1,9};
+Input: 
+int arr[]={4,5,7,2,1,9};
 Output: 36,5
 
 (3) Students who scored more than 70 ?
-Input: List<E_02> list = Arrays.asList(  
-    new E_02("Alice", 85),  
-    new E_02("Bob", 65)  
+Input:
+List<E_02> list = Arrays.asList(  
+    new Students("Alice", 85),  
+    new Students("Bob", 65)  
 );  
 Output: Alice
 
 (4) Employees with salary > 50,000 ?
-Input: List<E_02> list = Arrays.asList(  
-    new E_02("Alice", 40000),  
-    new E_02("Bob", 55000)  
+Input: 
+List<E_02> list = Arrays.asList(  
+    new Employees("Alice", 40000),  
+    new Employees("Bob", 55000)  
 );  
 Output: Bob
 
 (5) Strings that don’t contain letter ‘e’
-Input: List<String> list = Arrays.asList("apple", "bat", "dog");
+Input: 
+List<String> list = Arrays.asList("apple", "bat", "dog");
 Output: bat , dog
 
 (6) Names with <= 5 characters
-Input: List<String> list = Arrays.asList("Alice", "Bob", "Charlie");
+Input: 
+List<String> list = Arrays.asList("Alice", "Bob", "Charlie");
 Output: Alice, Bob
 
 (7) Countries in Europe ?
-Input : List<Country> countries = Arrays.asList(  
+Input :
+List<Country> countries = Arrays.asList(  
     new Country("Germany", "Europe"),  
     new Country("USA", "North America")  
 ); 
 Output: Germany
 
 (8) Students with all grades >= 40 ?
-Input: List<Students> students = Arrays.asList(  
+Input: 
+List<Students> students = Arrays.asList(  
     new Students("Alice", Arrays.asList(45, 50, 35)),  
     new Students("Bob", Arrays.asList(50, 60, 45))  
 );  
