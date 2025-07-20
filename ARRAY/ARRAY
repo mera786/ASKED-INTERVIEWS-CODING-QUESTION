@@ -273,12 +273,14 @@ intput :
 int [] arr1 = {1,2,2,1};
 int [] arr2 = {2,2};
 output : 2,2
+Note: Intersection :- means return all elements that appear in both arrays, including duplicates.
 
-(17) Find the union(contains all unique elements from both arrays) of two arrays?
+(17) Find the union of two arrays?
 intput :
 int [] arr1 = {1,2,2,1};
 int [] arr2 = {2,3};
 output : 1,2,3
+Note: Union :- contains all unique elements from both arrays.
 
 (18) Remove duplicates from an array?
 intput :
