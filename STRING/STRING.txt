@@ -1,194 +1,169 @@
-                                  STRING
+                                                             STRING
+******************************************************************************************************************************************
+
+                                                              ✅ EASY LEVEL (1-13)
+                                                            --------------------------
+
 (1) print sub string of a string ?
- Input: “abc”
- Output: a ab abc b bc c.
+Input: 
+String str=“abc”;
+Output: a ab abc b bc c.
+
 (2) toggle/ caseSwapper the string ?
- Input: “sAHil”
- Output: SahIL
+Input: 
+String str=“sAHil”;
+Output: SahIL
     OR
- Input: “Hello,World”
- Output: hELLO wORLD
+ Input: 
+String str=“Hello,World”;
+Output: hELLO wORLD
+
 (3) find vowels and convert into upper case then return string ?
-  Input: “hello”
-  Output: hEllO
+Input: 
+String str=“hello”;
+Output: hEllO
+
 (4) reverse the string ?
-  Input: “hello”
-  Output: olleh
+Input: 
+String str=“hello”;
+Output: olleh
+
 (5) reverse each word string ?
-  Input: “java code”
-  Output: avaj edoc
+Input: 
+String str=“java code”;
+Output: avaj edoc
+
 (6) print count of characters of string and total length of string?
-  Input: “sahil satish new delhi”
-  Output: count = 19 , length = 22
-(7) replace character with it’s occurrence ?
-  Input:”opentext”
-  Output: open1ex2
-(9) show index against of the characters ?
-  Input:”infotech”
-  Output:   i=0
-           n=1
+Input: 
+String str=“sahil satish new delhi”;
+Output: count = 19 , length = 22
+
+(7) show index against of the characters ?
+Input:
+String str=”infotech”;
+Output:   i=0
+          n=1
           f=2
           o=3
           t=4
           e=5
           c=6
           h=7
-(10) print ‘a’ instead of ‘ab’ in the string ?
-     Input: ”aaabbabbab”
-     Output: aaaaa
-(11) find ram occurrences in the string ?
-   Input: “Ram went to Rampur with balram and also sitaram”
-   Output: 4
-(12) find largest string from array?
-  Input: {"apple", "banana", "grape", "watermelon", "orange"}
-  Output: watermelon (10)
-(13) sort string alphabetically ?
-  Input: “java”
-  Output: aajv
-(14)  check is string palindrome or not ?
- Input: “racecar”
- Output: true
-(15) count number of palindrome string ?
-  Input: “abc” 
-  Output: 3
-(16) remove duplicate character from string ?
-  Input: “programing”
-  Output: p a r g i m n o
 
-(17) from given string find longest vowel sub string?
-Input: “helloooaeiooouworld”
-Output: oooaeiooou
-(18) for given string check it is isogram or not?
-   (a) input : “codedecode”;
-     Output: false
-   (b) input : “pen”
-     Output: true.
-(19) CHECK FOR STRING ROTATION EITHER FROM RIGHT OR LEFT IF YES THEN RETURN TRUE OTHERWISE FALSE ?
-left rotated case, 
- Input: originalString = "decode"; , toBeChecked = "codede";
- Output: true.
-Right rotated case, 
- Input: originalString = "decode"; , toBeChecked = "dedeco";
- Output: true.
-no rotated but swap, 
- Input: originalString = "decode"; , toBeChecked = "deocde";
- Output: false.
+(8) sort string alphabetically ?
+Input: 
+String str=“java”;
+Output: aajv
 
-(20) LEFT STRING ROTATION FOR K TIMES ?
+(9) check is string palindrome or not ?
+Input: 
+String str=“racecar”;
+Output: true
+
+(10) remove duplicate character from string ?
+Input: 
+String str=“programing”;
+Output: p a r g i m n o
+
+(11) for given string check it is isogram or not?
+Input : 
+String str=“codedecode”;
+Output: false
+           OR
+Input : 
+String str=“pen”;
+Output: true.
+
+(12) LEFT STRING ROTATION FOR K TIMES ?
  Input: “decode”;
  Output: codede.
 
-(21) RIGHT STRING ROTATION FOR K TIMES?
+(13) RIGHT STRING ROTATION FOR K TIMES?
  Input: “decode”
  Output: dedeco.
 
 
----------------------------------------- EXTRA CHATGPT ASKED ----------------------------------------------------------------------------
+                                                    🔸 Medium String Questions (1-16)
+                                                 -----------------------------------------
 
+(1) replace character with it’s occurrence ?
+Input:
+String str=”opentext”;
+Output: open1ex2
 
+(2) print ‘a’ instead of ‘ab’ in the string ?
+Input: 
+String str=”aaabbabbab”;
+Output: aaaaa
 
-🔹 Easy String Questions
+(3) find ram occurrences in the string ?
+Input: 
+String str=“Ram went to Rampur with balram and also sitaram”;
+Output: 4
 
-Reverse a String
-Input: "hello" → Output: "olleh"
+(4) Count number of palindromic substrings ?
+Input: 
+String str=“abc”; 
+Output: 3
 
-Check for Palindrome
-Input: "racecar" → Output: true
+(5) from given string find longest vowel sub string?
+Input: 
+String str=“helloooaeiooouworld”;
+Output: oooaeiooou
 
-Count Vowels and Consonants
-Input: "hello" → Output: Vowels = 2, Consonants = 3
+(6) CHECK FOR STRING ROTATION EITHER FROM RIGHT OR LEFT IF YES THEN RETURN TRUE OTHERWISE FALSE ?
+left rotated case, 
+Input: 
+String originalString = "decode";  , toBeChecked = "codede";
+Output: true.
+Right rotated case, 
+Input: 
+String originalString = "decode"; , toBeChecked = "dedeco";
+Output: true.
+no rotated but swap, 
+Input: 
+String originalString = "decode"; , toBeChecked = "deocde";
+Output: false.
 
-Check Anagram
-Input: "listen", "silent" → Output: true
+(7) Longest Substring Without Repeating Characters
+Input: 
+String str="abcabcbb"; 
+Output: "abc"
 
-Remove Duplicates from a String
-Input: "banana" → Output: "ban"
+(8) Check if a String is a Rotation of Another Using Only One Call to in
+Input:
+String str="waterbottle"; "erbottlewat" 
+Output: true
 
-Check if Two Strings are Rotations
-Input: "ABCD", "CDAB" → Output: true
+(9) String Compression
+Input: 
+String str="aabcccccaaa";
+Output: "a2b1c5a3"
 
-Convert String to Integer (without parseInt)
-Input: "123" → Output: 123
+(10) Valid Palindrome after Removing At Most One Character
+Input:
+String str="abca" 
+Output: true
 
-Find Duplicate Characters in String
-Input: "programming" → Output: g, r, m
+(11) First Non-Repeating Character
+Input: 
+String str="loveleetcode";
+Output: v
 
-Toggle Case of Characters
-Input: "HeLLo" → Output: "hEllO"
-
-Replace spaces with %20 (URLify)
-Input: "Mr John Smith" → Output: "Mr%20John%20Smith"
-
-
-
-🔸 Medium String Questions
-
-Longest Substring Without Repeating Characters
-Input: "abcabcbb" → Output: "abc"
-
-Check if a String is a Rotation of Another Using Only One Call to in
-Input: "waterbottle", "erbottlewat" → Output: true
-
-String Compression
-Input: "aabcccccaaa" → Output: "a2b1c5a3"
-
-Valid Palindrome after Removing At Most One Character
-Input: "abca" → Output: true
-
-First Non-Repeating Character
-Input: "loveleetcode" → Output: v
-
-Group Anagrams
+(12) Group Anagrams
 Input: ["eat","tea","tan","ate","nat","bat"] → Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
 
-Roman to Integer
+(13) Roman to Integer
 Input: "MCMXCIV" → Output: 1994
 
-Isomorphic Strings
+(14) Isomorphic Strings
 Input: "egg", "add" → Output: true
 
-Check if One String is a Subsequence of Another
+(15)Check if One String is a Subsequence of Another
 Input: "abc", "ahbgdc" → Output: true
 
-Check Balanced Parentheses
+(16) Check Balanced Parentheses
 Input: "({[]})" → Output: true
-
-
-
-🔺 Hard String Questions
-
-Zigzag Conversion
-Input: "PAYPALISHIRING", 3 → Output: "PAHNAPLSIIGYIR"
-
-Longest Palindromic Substring
-Input: "babad" → Output: "bab" or "aba"
-
-Regular Expression Matching (with . and *)
-Input: "aab", "c*a*b" → Output: true
-
-Minimum Window Substring
-Input: s = "ADOBECODEBANC", t = "ABC" → Output: "BANC"
-
-Wildcard Matching (? and *)
-Input: "adceb", "*a*b" → Output: true
-
-Count and Say
-Input: 5 → Output: "111221"
-
-Multiply Two Large Numbers Represented as Strings
-Input: "123", "456" → Output: "56088"
-
-Decode Ways (A=1 to Z=26)
-Input: "226" → Output: 3 (BZ, VF, BBF)
-
-Basic Calculator (with parentheses)
-Input: "(1+(4+5+2)-3)+(6+8)" → Output: 23
-
-Longest Duplicate Substring
-Input: "banana" → Output: "ana"
-
-
-
 
 
 
