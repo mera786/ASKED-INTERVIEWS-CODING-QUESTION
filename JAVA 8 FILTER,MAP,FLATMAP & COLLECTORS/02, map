@@ -53,7 +53,7 @@ Output: [hello, world]
 (10)  Creating an Index List? 
 Input: 
 List<String> list = Arrays.asList("a", "b", "c"); 
-Output: [0, 1, 2] 
+Output: [0, 1, 2]
 
 
 
