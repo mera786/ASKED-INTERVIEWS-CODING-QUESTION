@@ -27,41 +27,43 @@ Note:- An Armstrong number is a number that is equal to the sum of its digits ea
 Input: 
 int num = 32123;  
 output: true.
+Note:- A palindrome number is a number that reads the same backward as forward.
 
-(7) Count give digits ?
+(6) Count give digits ?
 Input: 
 int num=12345675;
 Output: 8
 
-(8) Reverse digit of numbers ?
+(7) Reverse digit of numbers ?
 Input: 
 int num=1234;
 Output: 4321
 
-(9) sum of digits for given number?
+(8) sum of digits for given number?
 Input:
 int num=1234;
 Output: 10
 
-(10) write code for first multiple of 5 and 7 ?
+(9) write code for first multiple of 5 and 7 ?
 Input :
-int num1=5;
-int num2=7;
+int num1=1;
 Output: 35
 
-(11) find sum of first n natural number ?
+(10) find sum of first n natural number ?
 Input: 
 int num=3; 
 Output: 6
+Note: The sum of the first n natural numbers means adding all numbers from 1 to n.
 
-(12) calculate sum of integers until invalid input given invalid input: -1?
+(11) calculate sum of integers until invalid input given    invalid input: -1?
         
-(13) calculate ‘a’ raise to the power ‘b’ ?
+(12) calculate ‘a’ raise to the power ‘b’ ?
 Input:  
 int a = 4,   b= 2;
 Output: 16
+Note: a^b
 
-(14) using recursion find nth Fibonacci series?
+(13) using recursion find nth Fibonacci series?
 Input: 
 int num=10; 
 Output: 55.
