@@ -1,24 +1,29 @@
-(1) Write code for Fibonacci series ?
+(1) Write code for Fibonacci series using normal logic and recursion?
 Input: 
 int num = 15;
 output: 0 1 1 2 3 5 8 13.
+Note:- Fibonacci series is a sequence where each number is the sum of the previous two numbers.
 
 (2) Write code for finding factorial of a Num ?
 Input : 
 int num=5;  
 output: 120.
+Note:- The factorial of a number n is the product of all positive integers less than or equal to n.
 
-(4) Check number is prime or not if prime then print all it's privious prime nums?
+(3) Check number is prime or not if prime then print all it's privious prime nums?
 Input: 
 int num=17; 
 output: 2,3,5,7,11,13,17.
+Note:- A prime number is a natural number greater than 1, that can be divided only by 1 and itself.
 
-(5) Write code to check is Armstrong or not ?
+(4) Write code to check is Armstrong or not ?
 Input: 
 int num=153; 
 output = true.
+Note:- An Armstrong number is a number that is equal to the sum of its digits each digit raised to the power of the number of digits.
+       ex- sum of (each digit ^ number of digits) == original number.
 
-(6)Check is number palindrome or not ?
+(5)Check is number palindrome or not ?
 Input: 
 int num = 32123;  
 output: true.
