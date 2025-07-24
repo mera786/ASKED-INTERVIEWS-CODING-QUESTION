@@ -73,13 +73,19 @@ Output: false
 Input : 
 String str=“pen”;
 Output: true.
+Note: An isogram is a word or phrase with no repeating letters.
+      ex- "Big dwarf only jumps"
 
 (12) LEFT STRING ROTATION FOR K TIMES ?
- Input: “decode”;
+ Input: 
+String str= “decode”;
+int k = 2
  Output: codede.
 
 (13) RIGHT STRING ROTATION FOR K TIMES?
- Input: “decode”
+ Input: 
+String str = “decode”
+int k = 2;
  Output: dedeco.
 
 
