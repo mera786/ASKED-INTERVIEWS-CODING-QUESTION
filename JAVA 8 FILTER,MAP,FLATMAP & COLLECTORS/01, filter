@@ -246,7 +246,7 @@ Input : List<Projects> list = Arrays.asList(
 );
 Output: [Projects{name='Project2', start='2020-01-01', end='2021-06-30'}]
 
-(5) Students whose average score > 70 ?
+(5) Students whose average score >= 70 ?
 Input: List<Students> students = Arrays.asList(
     new Students("Alice", Arrays.asList(60, 70, 80)),
     new Students("Bob", Arrays.asList(50, 60, 65))
