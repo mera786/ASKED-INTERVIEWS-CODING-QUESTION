@@ -1,45 +1,161 @@
-✅ HashMap Questions
+
+                                                                       ✅ HashMap Questions
+
 🟢 Easy
-Add key-value pairs to a HashMap.
+*********
 
-Retrieve a value using a key.
+(1) Add the following key-value pairs to a HashMap.?
+Input:
+[(1, "Apple"), (2, "Banana"), (3, "Cherry")]
+Output:
+{1=Apple, 2=Banana, 3=Cherry}
 
-Check if a key exists.
+(2) Retrieve a value from a HashMap using the given key.?
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Key = 2
+Output:
+Banana
 
-Remove a key-value pair.
+(3) Check if a given key exists in the HashMap.?
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Key = 3
+Output:
+true
 
-Iterate through keys and values.
+(4) Remove a key-value pair from the HashMap using the given key.
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Key to remove = 2
+Output:
+Updated Map = {1=Apple, 3=Cherry}
 
-Get size of the map.
+(5) Iterate through all the keys and values in the given HashMap and print each key-value pair.?
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Output:
+1 => Apple  
+2 => Banana  
+3 => Cherry
 
-Clear all entries.
+(6) Find the number of key-value pairs present in the given HashMap. ?
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Output:
+Size = 3
 
-Convert keys to a list.
+(7) Remove all key-value pairs from the given HashMap.?
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Output:
+Map = {} (an empty map)
 
-Check if the map is empty.
+(8) Convert all the keys from the given HashMap into a List.
+Input:
+Map = {1=Apple, 2=Banana, 3=Cherry}
+Output:
+List = [1, 2, 3]
 
-Copy one map into another.
+(9) Check whether the given HashMap is empty or not.?
+Output:
+true
+
+(10) Copy all key-value pairs from one HashMap into another. ?
+Input:
+Map1 = {1=Apple, 2=Banana}
+Map2 = {}
+Operation:
+Copy contents of Map1 into Map2.
+Output:
+Map2 = {1=Apple, 2=Banana}
+
+
+
 
 🟡 Medium
-Count frequency of characters in a string.
+*************
 
-Count word frequency in a sentence.
+(1) Count the frequency of each character in the given string. ?
+Input:
+String = "banana";
+Output:
+b = 1  
+a = 3  
+n = 2
 
-Find the first non-repeating character.
+(2) Count the frequency of each word in the given sentence. ?
+Input:
+String Sentence = "apple banana apple cherry banana apple";
+Output:
+apple = 3  
+banana = 2  
+cherry = 1
 
-Merge two maps by summing values.
+(3) Find the first non-repeating character in the given string. If all characters repeat, return an indication such as null. ?
+Input:
+String str = "swiss";
+Output:
+w
 
-Group strings by their lengths.
+(4) How do you merge two maps by summing the values of common keys in Java?
+Input:
+        // First map
+        Map<String, Integer> map1 = new HashMap<>();
+        map1.put("a", 1);
+        map1.put("b", 2);
 
-Group anagrams using a map.
+        // Second map
+        Map<String, Integer> map2 = new HashMap<>();
+        map2.put("b", 3);
+        map2.put("c", 4);
+Output:
+Merged Map: {a=1, b=5, c=4}
 
-Find duplicate elements in an array.
 
-Store and retrieve Student objects using roll number.
+(5) How do you group a list of strings by their lengths in Java?
+Input:
+List<String> words = Arrays.asList("apple", "bat", "car", "banana", "dog", "elephant");
+Expected Output:
+{
+  3 = [bat, car, dog],
+  5 = [apple],
+  6 = [banana],
+  8 = [elephant]
+}
 
-Count frequency of integers in an array.
+(6) How do you find duplicate elements in an array in Java?
+Input:
+int[] arr = {1, 2, 3, 2, 4, 5, 1, 6};
+Output:
+[1, 2]
 
-Create a map with default values for missing keys.
+ (7) How do you store and retrieve Student objects using roll number as the key in Java?
+Input:
+Student s1 = new Student(101, "Alice", 85);  
+Student s2 = new Student(102, "Bob", 90);  
+Retrieve student with roll number 101
+Output :
+Student{rollNumber=101, name='Alice', marks=85}
+
+(8) How do you create a map with default values for missing keys in Java?
+Input:
+You have a list of keys:
+List<String> keys = Arrays.asList("a", "b", "c");
+You want to create a map where each key maps to the default value 0.
+Output:
+{a=0, b=0, c=0}
+
+(9) Given an array of strings, group the anagrams together using a Map.?
+Input:
+String [] arr = {"eat", "tea", "tan", "ate", "nat", "bat"};
+Output:
+[
+  ["eat", "tea", "ate"],
+  ["tan", "nat"],
+  ["bat"]
+]
+
 
 🔴 Hard
 LRU cache using HashMap + LinkedList.
