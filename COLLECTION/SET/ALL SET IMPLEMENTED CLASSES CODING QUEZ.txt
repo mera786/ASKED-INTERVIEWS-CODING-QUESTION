@@ -258,44 +258,106 @@ Input:
         ll.add("Banana");
 Output: ["Banana", "Apple", "Mango"]
 
-Remove element and maintain order.
+(2) Remove a specific element from a LinkedHashSet and maintain the original insertion order of the remaining elements. ?
+Input:
+Set = ["Banana", "Apple", "Mango", "Orange"]
+Element to remove = "Apple"
+Output: ["Banana", "Mango", "Orange"]
 
-Iterate using iterator.
 
-Clone a LinkedHashSet.
+(3) Iterate over a LinkedHashSet using an Iterator and print each element.?
+Input: ["Banana", "Apple", "Mango"]
+Output:
+Banana  
+Apple  
+Mango
 
-Convert LinkedHashSet to ArrayList.
+(4) Clone a LinkedHashSet and verify that the new set has the same elements in insertion order.?
+Input: ["Banana", "Apple", "Mango"]
+Output (Cloned Set): ["Banana", "Apple", "Mango"]
 
-Use contains() to check for existence.
+(5) Convert a LinkedHashSet to an ArrayList while preserving insertion order.
+Input: ["Banana", "Apple", "Mango"]
+Output: ["Banana", "Apple", "Mango"]
 
-Remove all elements.
+(6) Use the contains() method to check whether a specific element exists in a LinkedHashSet.?
+Input:
+Set = ["Banana", "Apple", "Mango"]
+Element to check = "Apple"
+Output: true
 
-Convert list to LinkedHashSet to remove duplicates while keeping order.
+(7) Remove all elements from a LinkedHashSet and verify it's empty.?
+Input: ["Banana", "Apple", "Mango"]
+Operation: clear()
+Output: []
 
-Check if set contains all elements from another set.
+(8) Convert a List to a LinkedHashSet to remove duplicates while preserving insertion order.?
+Input: ["Banana", "Apple", "Mango", "Banana", "Apple"]
+Output: ["Banana", "Apple", "Mango"]
+
+(9) Check if a LinkedHashSet contains all elements from another set using containsAll().?
+Input:
+Set A = ["Banana", "Apple", "Mango"]
+Set B = ["Apple", "Mango"]
+Output: true
+
+
 
 🟡 Medium
-Merge two lists without duplicates using LinkedHashSet.
+***************
 
-Track recently visited pages using LinkedHashSet.
+(1) Merge two Lists into one without duplicates using a LinkedHashSet to preserve insertion order.?
+Input:
+List A = ["Banana", "Apple", "Mango"]
+List B = ["Apple", "Grapes", "Banana"]
+Output: ["Banana", "Apple", "Mango", "Grapes"]
 
-Implement custom LRU cache using LinkedHashSet.
+(2) Track recently visited pages using a LinkedHashSet to avoid duplicates and preserve access order.?
+Input (Visited Pages): "Home", "About", "Contact", "Home", "Blog"
+Output: ["Home", "About", "Contact", "Blog"]
 
-Preserve order of first appearance from a stream.
+(3) Implement a custom LRU class (Least Recently Used) cache using LinkedHashSet with a fixed capacity.?
+Input (Capacity = 3): Add pages "A", "B", "C", "A", "D"
+Output: ["C", "A", "D"]
 
-Count and preserve first non-repeating characters.
+(4) Preserve the order of first appearance of elements from a stream using LinkedHashSet.
+Input (Stream): "apple", "banana", "apple", "orange", "banana", "grape"
+Output: ["apple", "banana", "orange", "grape"]
 
-Remove duplicates from a string while keeping order.
+(5) Given string and preserve the order of first non-repeating characters.
+Input: "programming"
+Output: ['p', 'o', 'g', 'a', 'i', 'n']
 
-Simulate cache with max capacity using LinkedHashSet.
+(6) Remove duplicates from a string while keeping the order of first appearance.?
+Input: "programming"
+Output: "progamin"
 
-Convert ordered list of values into a unique linked set.
+(7) Simulate a recent history tracker with maximum capacity using LinkedHashSet.?
+Capacity: 3  
+Operations: ["open A", "open B", "open C", "open A", "open D"]
+["C", "A", "D"]
+💡 Explanation:
+open A → ["A"]
+open B → ["A", "B"]
+open C → ["A", "B", "C"]
+open A → A is already in history → move A to end → ["B", "C", "A"]
+open D → Add D, capacity exceeded → remove "B" (oldest) → ["C", "A", "D"]
 
-Track event logs in order without repetition.
+(8) Track event logs in the order they occur, ensuring no duplicate events are recorded.?
+Input:
+["LOGIN", "VIEW_PAGE", "LOGIN", "LOGOUT", "VIEW_PAGE", "DOWNLOAD"]
+Output:
+["LOGIN", "VIEW_PAGE", "LOGOUT", "DOWNLOAD"]
 
-Build a playlist without repeating songs and in original order.
+(9) Build a music playlist that maintains the order of song additions but does not allow duplicate songs.?
+Input:
+String[] arr = {"Shape of You", "Blinding Lights", "Shape of You", "Levitating", "Blinding Lights", "Peaches"};
+Output:
+["Shape of You", "Blinding Lights", "Levitating", "Peaches"]
+
 
 🔴 Hard
+**********
 Implement basic LRU using LinkedHashSet + capacity check.
 
 Combine unique characters from two strings, preserving first appearance.
