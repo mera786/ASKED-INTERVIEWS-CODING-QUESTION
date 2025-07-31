@@ -244,11 +244,19 @@ Output: 1 unique
 
 
 
-✅ LinkedHashSet Questions
-🟢 Easy
-Create a LinkedHashSet and add elements.
+                                                                  ✅ LinkedHashSet Questions
 
-Observe insertion order in LinkedHashSet.
+🟢 Easy
+***************
+
+(1) Create a LinkedHashSet, add elements, and print them in insertion order.
+Input: 
+        LinkedHashSet<String> ll= new LinkedHashSet<>();
+        ll.add("Banana");
+        ll.add("apple");
+        ll.add("Mango");
+        ll.add("Banana");
+Output: ["Banana", "Apple", "Mango"]
 
 Remove element and maintain order.
 
