@@ -1,5 +1,0 @@
-                                 LINKEDHASHSET
-
-(1) FROM STRING FIND DUPLICATE CHARACTER ?
- Input: “code decode”
- Output: c d e o.
